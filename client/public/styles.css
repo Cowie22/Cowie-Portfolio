@@ -1,7 +1,7 @@
 body {
   background: rgb(0, 0, 0);
   font-size: 22px;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 /* Header Navigation Styling */
@@ -76,7 +76,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 44px;
-  margin-bottom: 20px;
 }
 
 .Home-Button {
@@ -98,27 +97,64 @@ body {
 
 /* About Me Styling */
 
+.AboutMe-Title-Container {
+  position: relative;
+  left: 46%;
+  top: 14%;
+}
+
+.AboutMe-Title {
+  text-align: center;
+  /* text-decoration: underline; */
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 4px solid white;
+  padding-bottom: 2px;
+}
+
 .AboutMe-Container {
   display: flex;
   flex-direction: row;
+  background-image: url(https://www.xmple.com/wallpaper/linear-gradient-blue-1920x1080-c2-00ffff-4682b4-a-315-f-14.svg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+  height: 800px;
+  width: 100%;
 }
 
 .AboutMe-Photo-Container {
   display: flex;
   justify-content: flex-start;
+  position: relative;
+  top: 29%;
+  left: -8%;
+  margin-right: 2px;
 }
 
 .AboutMe-Photo {
-  height: 620px;
-  width: 620px;
+  height: 460px;
+  width: 460px;
 }
 
 
 .AboutMe-Info-Container {
   display: flex;
   flex-direction: flex-end;
+  flex-direction: column;
+  position: relative;
+  top: 28%;
+  left: -4%;
+  word-wrap: break-word;
+  width: 820px;
+  text-align: center;
+}
+
+.Who {
+  color: white;
 }
 
 .AboutMe-Info {
-  color: white;
+  color: black;
+  font-size: 22px;
 }
