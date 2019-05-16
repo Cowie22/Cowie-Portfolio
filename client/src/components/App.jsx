@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderNav from './HeaderNav.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Hello Court
+        <HeaderNav />
       </div>
     )
   }

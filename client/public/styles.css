@@ -2,5 +2,41 @@ body {
   background: rgb(0, 0, 0);
   font-size: 22px;
   font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Header Navigation Styling */
+
+.navbar,
+.navbar-default {
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-brand {
   color: white;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  border-right: 1px solid white;
+  margin-right: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: rgb(126, 14, 14);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(126, 14, 14);
+}
+
+.header-dropdown {
+  font-weight: bold;
+}
+
+.header-dropdown:hover {
+  cursor: pointer;
+  color: #FFD100;
 }
