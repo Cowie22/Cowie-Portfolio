@@ -40,3 +40,60 @@ body {
   cursor: pointer;
   color: #FFD100;
 }
+
+/* Home Page Styling */
+
+.Home-Page-Container {
+  background-image: url(https://media.giphy.com/media/729Qyvc6cOg7u/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+}
+
+.Cowie-Photo-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cowie-Photo {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Home-Info-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(253,137,83);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Home-Button-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.Home-Button {
+  background-color: transparent;
+  font-size: 22px;
+  color: rgb(253,137,83);
+  border-width: 4px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.Home-Button:hover {
+  cursor: pointer;
+  color: rgb(253,137,83);
+  background: white;
+}

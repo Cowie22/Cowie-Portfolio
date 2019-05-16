@@ -21,7 +21,11 @@ module.exports = {
       {
         test: /\.(css|less)$/,
         loader:[ 'style-loader', 'css-loader' ]
-      }
+      },
+      {
+				test: /\.(jpe?g|png|gif|svg|mp4)$/i,
+				use: 'file-loader'
+			},
     ]
   }
 };
