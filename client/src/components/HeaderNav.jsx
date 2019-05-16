@@ -13,7 +13,7 @@ class HeaderNav extends React.Component {
   render() {
     return (
       <div>
-        <Navbar>
+        <Navbar className="navbar fixed-top">
           <Navbar.Brand
 
           >
