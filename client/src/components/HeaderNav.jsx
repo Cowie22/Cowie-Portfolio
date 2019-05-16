@@ -33,13 +33,13 @@ class HeaderNav extends React.Component {
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="https://www.linkedin.com/in/ryan-cowie/">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2kgBiWI39vSTYfxtJOnyqHEvR9l6wbwCyj39yyUrnneoTUyfhRQ" className="icons"/>
+                <img src="https://cdn.onlinewebfonts.com/svg/img_411893.png" className="icons"/>
               </Nav.Link>
               <Nav.Link href="https://github.com/Cowie22">
-                <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" className="icons"/>
+                <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="icons"/>
               </Nav.Link>
               <Nav.Link href="mailto:rjcowie1@gmail.com">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwzz9zVRXTz7nf8e7r1rd2WU3Ls9ut13fyTz31oq3DSGp4JNe" className="icons"/>
+                <img src="https://cdn4.iconfinder.com/data/icons/rounded-white-basic-ui/139/Mail02-RoundedWhite-512.png" className="icons"/>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
