@@ -95,3 +95,30 @@ body {
   background: white;
 }
 
+
+/* About Me Styling */
+
+.AboutMe-Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.AboutMe-Photo-Container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.AboutMe-Photo {
+  height: 620px;
+  width: 620px;
+}
+
+
+.AboutMe-Info-Container {
+  display: flex;
+  flex-direction: flex-end;
+}
+
+.AboutMe-Info {
+  color: white;
+}

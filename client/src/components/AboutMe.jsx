@@ -10,9 +10,9 @@ class AboutMe extends React.Component {
   }
   render() {
     return (
-      <div>
-        <div>
-          <img src={Roxy} />
+      <div className="AboutMe-Container">
+        <div className="AboutMe-Photo-Container">
+          <img src={Roxy} className="AboutMe-Photo" />
         </div>
         <div className="AboutMe-Info-Container">
           <p className="AboutMe-Info">
