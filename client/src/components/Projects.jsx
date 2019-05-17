@@ -23,8 +23,15 @@ class Projects extends React.Component {
               <Card.Body>
                 <Card.Title>ZoundLoud</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  1. Full stack music web application
+                  <br></br>
+                  2. React.js, Express, Node.js, MySQL, Sequelize, HTML,  Javascript ES6, Docker, AWS EC2, Styled Components
+                  <br></br>
+                  3. Utilized React.js and Styled Components to create an interactive and dynamic sound player microservice deployed with AWS EC2
+                  <br></br>
+                  4. Developed and deployed four instances of dockerized microservices on to AWS EC2 to containerize a full stack web application
+                  <br></br>
+                  5. Optimized service page load speed from 43 to 97 by minifying source bundle, fetching data on user request, and asynchronously loading blocking CSS
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -36,10 +43,17 @@ class Projects extends React.Component {
             <Card>
               <Card.Img variant="top" src="https://i.imgur.com/BC5igyL.gif" />
               <Card.Body>
-                <Card.Title>Reservation For Four</Card.Title>
+                <Card.Title>Reservations For Four</Card.Title>
                 <Card.Text>
-                  This card has supporting text below as a natural lead-in to additional
-                  content.{' '}
+                  1. Scalable backend and system design for a restaurant reservation web application
+                  <br></br>
+                  2. React.js, Express, Node.js, PostgreSQL, AWS EC2, Tmux, NGINX,  Loader.io, New Relic, Artillery.io, Redis
+                  <br></br>
+                  3. Inherited legacy codebase and redesigned a scalable backend, in order to achieve web-scale traffic
+                  <br></br>
+                  4. Increased throughput by 1000% to 1880 RPS utilizing horizontal scaling (6 AWS EC2 machines and 3 database replications), an NGINX load balancer, and a Redis Cache
+                  <br></br>
+                  5. Benchmarked PostgreSQL and MongoDB with databases of 140 million records to determine optimal query performance for my microservice
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -53,9 +67,13 @@ class Projects extends React.Component {
               <Card.Body>
                 <Card.Title>N-Star</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to
-                  show that equal height action.
+                  1. Full stack interactive Ski-Resort-Map application
+                  <br></br>
+                  2. React.js, Express, Node.js, MySQL, HTML, Javascript ES6, Styled Components, Axios
+                  <br></br>
+                  3. Designed a full stack, interactive Ski-Resort-Map, which allows users to navigate the various trails, lifts, accommodations, etc.
+                  <br></br>
+                  4. Implemented intuitive and visually stimulating UI/UX, which allows users to conveniently obtain pertinent resort information, as well as record personal information
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
