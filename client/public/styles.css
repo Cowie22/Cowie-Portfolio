@@ -221,3 +221,22 @@ code {
   margin-right: 28px;
   margin-left: -4px;
 }
+
+.Modal-Button {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 2px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.Modal-Button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-color: white;
+  border-width: 2px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}

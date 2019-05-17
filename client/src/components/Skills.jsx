@@ -31,7 +31,7 @@ class Skills extends React.Component {
           </Container>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={this.props.onHide}>Close</Button>
+          <Button onClick={this.props.onHide} className="Modal-Button">CLOSE</Button>
         </Modal.Footer>
       </Modal>
     );
