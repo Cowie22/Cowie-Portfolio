@@ -12,18 +12,31 @@ class App extends React.Component {
       modalShow: false,
     }
     this.HandleModal = this.HandleModal.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
+    this.homePageRef = React.createRef();
+    this.aboutMeRef = React.createRef();
   }
+
   HandleModal() {
     this.setState({
       modalShow: !this.state.modalShow,
     })
   }
+
+  handleScroll(ref) {
+    ref.current.scrollIntoView({behavior: 'smooth'})
+  }
+
   render() {
     return (
-      <div>
-        <HeaderNav />
+      <div ref={this.homePageRef}>
+        <HeaderNav
+          handleScroll={this.handleScroll}
+          aboutRef={this.aboutMeRef}
+          homeRef={this.homePageRef}
+        />
         <HomePage />
-        <div>
+        <div ref={this.aboutMeRef}>
           <AboutMe />
           <ButtonToolbar>
             <Button

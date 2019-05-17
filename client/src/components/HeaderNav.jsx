@@ -15,7 +15,7 @@ class HeaderNav extends React.Component {
       <div>
         <Navbar className="navbar fixed-top">
           <Navbar.Brand
-
+            onClick={() => this.props.handleScroll(this.props.homeRef)}
           >
           Ryan Cowie
           </Navbar.Brand>
@@ -23,10 +23,11 @@ class HeaderNav extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link
+                onClick={() => this.props.handleScroll(this.props.homeRef)}
               >
               Home
               </Nav.Link>
-              <Nav.Link href="">About Me</Nav.Link>
+              <Nav.Link href="" onClick={() => this.props.handleScroll(this.props.aboutRef)}>About Me</Nav.Link>
               <Nav.Link href="">Projects</Nav.Link>
               <Nav.Link href="">Contact</Nav.Link>
               <Nav.Link href="https://docs.google.com/document/d/11hgxIBPsteUHVKVy9yBPP1fnsqP5X5J2ezwiWdasrIY/edit?usp=sharing">Resume</Nav.Link>
