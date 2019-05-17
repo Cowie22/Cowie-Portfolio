@@ -194,3 +194,30 @@ body {
   width: 34px;
   height: 34px;
 }
+
+.modal-content {
+  width: 680px;
+  position: absolute;
+  left: -18%;
+  background-color: black;
+  color: white;
+}
+
+.Modal-Skill-Header-Container.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+code {
+  color: skyblue;
+  margin-right: 28px;
+  margin-left: -4px;
+}

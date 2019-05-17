@@ -7,29 +7,25 @@ class Skills extends React.Component {
       <Modal {...this.props} aria-labelledby="contained-modal-title-vcenter">
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Using Grid in Modal
+            Tech Skill Set
           </Modal.Title>
+        </Modal.Header>
+        <Modal.Header className="Modal-Skill-Header-Container">
+          <h5 className="Model-Skills-Header">Front-End</h5>
+          <h5 className="Model-Skills-Header">Back-End</h5>
+          <h5 className="Model-Skills-Header">Other</h5>
         </Modal.Header>
         <Modal.Body>
           <Container>
             <Row className="show-grid">
-              <Col xs={12} md={8}>
-                <code>.col-xs-12 .col-md-8</code>
+              <Col xs={6} md={4}>
+                <code>Javascript HTML5 CSS3 React.js/Redux jQuery Axios Styled Components Webpack</code>
               </Col>
               <Col xs={6} md={4}>
-                <code>.col-xs-6 .col-md-4</code>
-              </Col>
-            </Row>
-
-            <Row className="show-grid">
-              <Col xs={6} md={4}>
-                <code>.col-xs-6 .col-md-4</code>
+                <code>RESTful APIs Node.js Express Amazon Web Services EC2 Docker MySQL Sequelize MongoDB Mongoose PostgreSQL NGINX Redis</code>
               </Col>
               <Col xs={6} md={4}>
-                <code>.col-xs-6 .col-md-4</code>
-              </Col>
-              <Col xs={6} md={4}>
-                <code>.col-xs-6 .col-md-4</code>
+                <code>Chai Mocha Jest Enzyme NPM Git NewRelic Loader.io Artillery Bootstrap Tmux</code>
               </Col>
             </Row>
           </Container>
