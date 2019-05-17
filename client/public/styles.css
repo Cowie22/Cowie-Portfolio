@@ -248,13 +248,13 @@ code {
   background-image: url(https://www.xmple.com/wallpaper/linear-gradient-blue-1920x1080-c2-00ffff-4682b4-a-315-f-14.svg);
   background-repeat: no-repeat;
   background-size: 1500px 1000px;
-  height: 800px;
+  height: 880px;
   width: 100%;
 }
 
 .Projects-Title-Container {
-  margin-top: 120px;
-  margin-bottom: 40px;
+  margin-top: 88px;
+  margin-bottom: 2px;
   width: 240px;
   position: relative;
   left: 42%;
@@ -308,4 +308,9 @@ code {
 @-o-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+.project-icons {
+  width: 46px;
+  height: 46px;
 }

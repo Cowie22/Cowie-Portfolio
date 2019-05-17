@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, CardDeck, Card } from 'react-bootstrap';
+import { Button, CardDeck, Card, Nav } from 'react-bootstrap';
 import { MDBAnimation } from "mdbreact";
 import styled from 'styled-components';
 
@@ -16,7 +16,7 @@ class Projects extends React.Component {
         <div className="Projects-Title-Container">
           <h1 className="Projects-Title">PROJECTS</h1>
         </div>
-        {this.props.pagePosition >= 1600 ?
+        {this.props.pagePosition >= 1400 ?
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="https://media.giphy.com/media/W5aNHyICXRPGYWqtMt/giphy.gif" />
@@ -28,7 +28,9 @@ class Projects extends React.Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <Nav.Link href="https://github.com/ZoundLoud/Service-Cowie" target="_blank">
+                  <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="project-icons"/>
+                </Nav.Link>
               </Card.Footer>
             </Card>
             <Card>
@@ -41,7 +43,9 @@ class Projects extends React.Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <Nav.Link href="https://github.com/17000-or-bust/photos" target="_blank">
+                  <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="project-icons"/>
+                </Nav.Link>
               </Card.Footer>
             </Card>
             <Card>
@@ -55,7 +59,9 @@ class Projects extends React.Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <Nav.Link href="https://github.com/Cowie22/hrsf110-mvp" target="_blank">
+                  <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="project-icons"/>
+                </Nav.Link>
               </Card.Footer>
             </Card>
           </CardDeck>

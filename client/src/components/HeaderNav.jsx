@@ -30,16 +30,16 @@ class HeaderNav extends React.Component {
               <Nav.Link href="" onClick={() => this.props.handleScroll(this.props.aboutRef)}>About Me</Nav.Link>
               <Nav.Link href="" onClick={() => this.props.handleScroll(this.props.projectsRef)}>Projects</Nav.Link>
               <Nav.Link href="">Contact</Nav.Link>
-              <Nav.Link href="https://docs.google.com/document/d/11hgxIBPsteUHVKVy9yBPP1fnsqP5X5J2ezwiWdasrIY/edit?usp=sharing">Resume</Nav.Link>
+              <Nav.Link href="https://docs.google.com/document/d/11hgxIBPsteUHVKVy9yBPP1fnsqP5X5J2ezwiWdasrIY/edit?usp=sharing" target="_blank">Resume</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link href="https://www.linkedin.com/in/ryan-cowie/">
+              <Nav.Link href="https://www.linkedin.com/in/ryan-cowie/" target="_blank">
                 <img src="https://cdn.onlinewebfonts.com/svg/img_411893.png" className="icons"/>
               </Nav.Link>
-              <Nav.Link href="https://github.com/Cowie22">
+              <Nav.Link href="https://github.com/Cowie22" target="_blank">
                 <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="icons"/>
               </Nav.Link>
-              <Nav.Link href="mailto:rjcowie1@gmail.com">
+              <Nav.Link href="mailto:rjcowie1@gmail.com" target="_blank">
                 <img src="https://cdn4.iconfinder.com/data/icons/rounded-white-basic-ui/139/Mail02-RoundedWhite-512.png" className="icons"/>
               </Nav.Link>
             </Nav>
