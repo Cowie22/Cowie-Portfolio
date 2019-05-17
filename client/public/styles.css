@@ -158,3 +158,39 @@ body {
   color: black;
   font-size: 22px;
 }
+
+.Skills-Button {
+  position: absolute;
+  left: 60%;
+  top: 192%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  border-width: 2px;
+  border-color: white;
+}
+
+.Skills-Button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: dodgerblue;
+  border-color: white;
+}
+
+.Skills-Icon-One {
+  position: absolute;
+  left: 56%;
+  top: 192.4%;
+  width: 34px;
+  height: 34px;
+}
+
+.Skills-Icon-Two {
+  position: absolute;
+  left: 75.6%;
+  top: 192.4%;
+  width: 34px;
+  height: 34px;
+}

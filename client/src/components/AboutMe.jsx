@@ -29,7 +29,6 @@ class AboutMe extends React.Component {
             I grew up in Lake Tahoe, California, so other interest of mine are sports and several outdoor activities.  I also have a passion for music and music festivals.
           </p>
         </div>
-
       </div>
     )
   }
