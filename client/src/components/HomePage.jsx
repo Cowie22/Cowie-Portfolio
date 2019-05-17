@@ -20,7 +20,7 @@ class HomePage extends React.Component {
           <h1>Based in San Francisco, CA.</h1>
         </div>
         <div className="Home-Button-Container">
-          <button className="Home-Button">View My Work</button>
+          <button className="Home-Button" onClick={() => this.props.handleScroll(this.props.aboutRef)}>View My Work</button>
         </div>
       </div>
     )

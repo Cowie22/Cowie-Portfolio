@@ -28,7 +28,7 @@ class HeaderNav extends React.Component {
               Home
               </Nav.Link>
               <Nav.Link href="" onClick={() => this.props.handleScroll(this.props.aboutRef)}>About Me</Nav.Link>
-              <Nav.Link href="">Projects</Nav.Link>
+              <Nav.Link href="" onClick={() => this.props.handleScroll(this.props.projectsRef)}>Projects</Nav.Link>
               <Nav.Link href="">Contact</Nav.Link>
               <Nav.Link href="https://docs.google.com/document/d/11hgxIBPsteUHVKVy9yBPP1fnsqP5X5J2ezwiWdasrIY/edit?usp=sharing">Resume</Nav.Link>
             </Nav>

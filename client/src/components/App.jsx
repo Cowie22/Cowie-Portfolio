@@ -3,6 +3,7 @@ import HeaderNav from './HeaderNav.jsx';
 import HomePage from './HomePage.jsx';
 import AboutMe from './AboutMe.jsx';
 import Skills from './Skills.jsx';
+import Projects from './Projects.jsx';
 import { Button, ButtonToolbar } from 'react-bootstrap';
 
 class App extends React.Component {
@@ -10,11 +11,22 @@ class App extends React.Component {
     super(props);
     this.state = {
       modalShow: false,
+      pagePosition: 0,
     }
     this.HandleModal = this.HandleModal.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
+    this.handlePagePosition = this.handlePagePosition.bind(this);
     this.homePageRef = React.createRef();
     this.aboutMeRef = React.createRef();
+    this.projectsRef = React.createRef();
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handlePagePosition);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handlePagePosition);
   }
 
   HandleModal() {
@@ -27,6 +39,13 @@ class App extends React.Component {
     ref.current.scrollIntoView({behavior: 'smooth'})
   }
 
+  handlePagePosition() {
+    this.setState({
+      pagePosition: window.pageYOffset
+    })
+    console.log(this.state.pagePosition)
+  }
+
   render() {
     return (
       <div ref={this.homePageRef}>
@@ -34,8 +53,12 @@ class App extends React.Component {
           handleScroll={this.handleScroll}
           aboutRef={this.aboutMeRef}
           homeRef={this.homePageRef}
+          projectsRef={this.projectsRef}
         />
-        <HomePage />
+        <HomePage
+          handleScroll={this.handleScroll}
+          aboutRef={this.aboutMeRef}
+        />
         <div ref={this.aboutMeRef}>
           <AboutMe />
           <ButtonToolbar>
@@ -51,6 +74,11 @@ class App extends React.Component {
           </ButtonToolbar>
           <img src="https://s3.amazonaws.com/user-media.venngage.com/563812-d79208fdff220fb9fbb753398711d687.png" className="Skills-Icon-One" />
           <img src="https://s3.amazonaws.com/user-media.venngage.com/563812-d79208fdff220fb9fbb753398711d687.png" className="Skills-Icon-Two" />
+        </div>
+        <div ref={this.projectsRef}>
+          <Projects
+            pagePosition={this.state.pagePosition}
+          />
         </div>
       </div>
     )
