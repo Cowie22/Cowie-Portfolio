@@ -329,3 +329,87 @@ code {
 .card-footer {
   padding: 0;
 }
+
+
+/* Contact Styling */
+
+.Contact-Container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.xmple.com/wallpaper/linear-gradient-blue-1920x1080-c2-00ffff-4682b4-a-315-f-14.svg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+  height: 800px;
+  width: 100%;
+}
+
+.Contact-Title-Container {
+  margin-top: 88px;
+  margin-bottom: 2px;
+  width: 240px;
+  position: relative;
+  left: 42%;
+}
+
+.Contact-Title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 4px solid white;
+  padding-bottom: 2px;
+}
+
+.Contact-Info-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.Contact-Text .nav-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Contact-Info-Text {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.Contact-Info-Text:hover {
+  margin-left: 10px;
+  color: rgb(253,137,83);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.Cowie-Snowboard-Container {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.Cowie-Snowboard {
+  height: 518px;
+  width: 426px;
+}
+
+.Contact-Text-Two {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.Contact-Info-Text-Two {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 22px;
+}

@@ -77,7 +77,7 @@ class Projects extends React.Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Nav.Link href="https://github.com/Cowie22/hrsf110-mvp" target="_blank">
+                <Nav.Link href="https://github.com/Cowie22/N-Star" target="_blank">
                   <img src="https://image.flaticon.com/icons/svg/25/25231.svg" className="project-icons"/>
                 </Nav.Link>
               </Card.Footer>

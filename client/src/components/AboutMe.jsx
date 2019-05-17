@@ -20,7 +20,7 @@ class AboutMe extends React.Component {
         <div className="AboutMe-Info-Container">
           <h3 className="Who">Who Is This Guy?</h3>
           <p className="AboutMe-Info">
-            I am a passionate and diligent Full-Stack Software Engineer with extensive experience in Javascript, Node, React, SQL/NoSQL databases and many other modern full-stack frameworks. I truly get excited to wake up everyday and spend hours coding. I know it sounds cheesy, but it is true!  I love the constant challenges that this field provides and I’m always eager to learn new techniques, in order to stay competitive.
+            I am a passionate and diligent Full-Stack Software Engineer with extensive experience in Javascript, Node, React, SQL/NoSQL databases and many other modern full-stack frameworks. I truly get excited to wake up everyday and spend hours coding. I know it sounds cheesy, but it is true!  I love the constant challenges that this field provides and I’m always eager to learn new techniques.
             </p>
             <p className="AboutMe-Info">
             Before finding my true passion in coding, I graduated from UCLA with a degree in Environmental Studies.  I have a strong belief that the preservation of our environment needs to be of primary concern and sustainable practices should be utilized by everyone.  I would love to one day use my skills as a software engineer to help achieve environmental sustainability.

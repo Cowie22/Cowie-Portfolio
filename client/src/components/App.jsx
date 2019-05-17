@@ -4,6 +4,7 @@ import HomePage from './HomePage.jsx';
 import AboutMe from './AboutMe.jsx';
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
+import Contact from './Contact.jsx';
 import { Button, ButtonToolbar } from 'react-bootstrap';
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
     this.homePageRef = React.createRef();
     this.aboutMeRef = React.createRef();
     this.projectsRef = React.createRef();
+    this.contactRef = React.createRef();
   }
 
   componentDidMount() {
@@ -43,7 +45,6 @@ class App extends React.Component {
     this.setState({
       pagePosition: window.pageYOffset
     })
-    console.log(this.state.pagePosition)
   }
 
   render() {
@@ -54,6 +55,7 @@ class App extends React.Component {
           aboutRef={this.aboutMeRef}
           homeRef={this.homePageRef}
           projectsRef={this.projectsRef}
+          contactRef={this.contactRef}
         />
         <HomePage
           handleScroll={this.handleScroll}
@@ -69,7 +71,6 @@ class App extends React.Component {
             >
               CLICK FOR SKILLS
             </Button>
-
             <Skills show={this.state.modalShow} onHide={this.HandleModal} />
           </ButtonToolbar>
           <img src="https://s3.amazonaws.com/user-media.venngage.com/563812-d79208fdff220fb9fbb753398711d687.png" className="Skills-Icon-One" />
@@ -79,6 +80,9 @@ class App extends React.Component {
           <Projects
             pagePosition={this.state.pagePosition}
           />
+        </div>
+        <div ref={this.contactRef}>
+          <Contact />
         </div>
       </div>
     )
