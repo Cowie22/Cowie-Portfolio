@@ -23,9 +23,12 @@ module.exports = {
         loader:[ 'style-loader', 'css-loader' ]
       },
       {
-				test: /\.(jpe?g|png|gif|svg|mp4)$/i,
-				use: 'file-loader'
-			},
+        test: /\.(jpe?g|png)$/i,
+        loader: [
+          'file-loader',
+          'webp-loader'
+        ]
+      }
     ]
   }
 };

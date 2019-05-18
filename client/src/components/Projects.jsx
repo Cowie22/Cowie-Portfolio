@@ -1,7 +1,5 @@
 import React from 'react';
 import { Button, CardDeck, Card, Nav } from 'react-bootstrap';
-import { MDBAnimation } from "mdbreact";
-import styled from 'styled-components';
 
 class Projects extends React.Component {
   constructor(props) {
