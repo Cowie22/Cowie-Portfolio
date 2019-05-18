@@ -1,5 +1,6 @@
 import React from 'react';
 import CowiePhoto from '../../public/photos/Portfolio-Photo.png';
+// import CowiePhoto from '../../public/photos/Portfolio-Photo.webp';
 
 class HomePage extends React.Component {
   constructor(props) {

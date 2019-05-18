@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import CowieBoard from '../../public/photos/Portfolio-Snowboard.png';
+// import CowieBoard from '../../public/photos/Portfolio-Snowboard.webp';
 
 class Contact extends React.Component {
   constructor(props) {

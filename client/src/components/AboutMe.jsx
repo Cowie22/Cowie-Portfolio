@@ -1,5 +1,6 @@
 import React from 'react';
 import Roxy from '../../public/photos/Roxy.png';
+// import Roxy from '../../public/photos/Roxy.webp';
 
 class AboutMe extends React.Component {
   constructor(props) {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import LinkedIn from '../../public/photos/linkedin.png';
+// import LinkedIn from '../../public/photos/linkedin.webp';
 
 class HeaderNav extends React.Component {
   constructor(props) {
