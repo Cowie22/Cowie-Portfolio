@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, CardDeck, Card, Nav } from 'react-bootstrap';
-
+import test from '../../public/videos/gif1.mp4';
 class Projects extends React.Component {
   constructor(props) {
     super(props);
