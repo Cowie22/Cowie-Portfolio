@@ -199,9 +199,11 @@ body {
 }
 
 .Skills-Button {
-  position: absolute;
+  position: relative;
   left: 60%;
-  top: 192%;
+  bottom: 38px;
+  margin-bottom: 4px;
+  margin-top: -50px;
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 18px;
@@ -213,9 +215,11 @@ body {
 
 @media screen and (max-width: 992px) {
   .Skills-Button {
-    position: absolute;
-    left: 60%;
-    top: 119%;
+    position: relative;
+    left: 11%;
+    bottom: 52px;
+    margin-bottom: 4px;
+    margin-top: -50px;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 18px;
@@ -234,36 +238,36 @@ body {
 }
 
 .Skills-Icon-One {
-  position: absolute;
+  position: relative;
   left: 56%;
-  top: 192.4%;
+  bottom: 82px;
   width: 34px;
   height: 34px;
 }
 
 @media screen and (max-width: 992px) {
   .Skills-Icon-One {
-    position: absolute;
-    left: 55.6%;
-    top: 119.4%;
+    position: relative;
+    left: 5%;
+    bottom: 92.3px;
     width: 34px;
     height: 34px;
   }
 }
 
 .Skills-Icon-Two {
-  position: absolute;
-  left: 75.6%;
-  top: 192.4%;
+  position: relative;
+  left: 73.3%;
+  bottom: 82px;
   width: 34px;
   height: 34px;
 }
 
 @media screen and (max-width: 992px) {
   .Skills-Icon-Two {
-    position: absolute;
-    left: 82%;
-    top: 119.4%;
+    position: relative;
+    left: 30.8%;
+    bottom: 92.3px;
     width: 34px;
     height: 34px;
   }
@@ -325,6 +329,7 @@ code {
   background-size: 1500px 1000px;
   height: 880px;
   width: 100%;
+  margin-top: -38px;
 }
 
 .Projects-Title-Container {
