@@ -25,24 +25,31 @@ body {
 }
 
 .navbar-light .navbar-brand:hover {
-  color: rgb(126, 14, 14);
+  color: #F09C60;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(126, 14, 14);
+  color: #F09C60;
 }
 
 .navbar-light .navbar-nav .nav-link .icons {
-  width: 46px;
-  height: 46px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link .icons:hover {
+  background: #F09C60;
+  cursor: pointer;
 }
 
 
 /* Home Page Styling */
 
 .Home-Page-Container {
-  background-image: url(https://media.giphy.com/media/729Qyvc6cOg7u/giphy.gif);
-  /* background-image: url(https://i.imgur.com/ulmXFG4.mp4); */
+  /* background-image: url(https://media.giphy.com/media/729Qyvc6cOg7u/giphy.gif); */
+  background-image: url('./videos/homephoto.gif');
   background-repeat: no-repeat;
   background-size: 1500px 1000px;
 }
@@ -66,7 +73,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(253,137,83);
+  color: #F09C60;
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -80,19 +87,29 @@ body {
 }
 
 .Home-Button {
-  background-color: transparent;
+  font-family: Helvetica, sans-serif;
   font-size: 28px;
-  color: rgb(253,137,83);
+  /* color: #F09C60; */
   border-width: 4px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  color: white;
+  background: rgba(0,0,0,0);
+  border-color: black;
+  font-weight: bolder;
+  transition: 0.5s ease-in;
 }
 
 .Home-Button:hover {
+  font-family: Helvetica, sans-serif;
   cursor: pointer;
-  color: rgb(253,137,83);
-  background: white;
+  color: #F09C60;
+  background-color: rgba(255,255,255,0.2);
+  cursor: pointer;
+  border-color: black;
+  font-weight: bolder;
+  transition: 0.5s ease-in;
 }
 
 
@@ -154,7 +171,6 @@ body {
     width: 400px;
   }
 }
-
 
 .AboutMe-Info-Container {
   display: flex;
@@ -393,7 +409,7 @@ code {
 .card-title {
   font-size: 22px;
   font-weight: bold;
-  color: rgb(253,137,83);
+  color: #F09C60;
 }
 
 .card-text {
@@ -474,7 +490,7 @@ code {
 
 .Contact-Info-Text:hover {
   margin-left: 10px;
-  color: rgb(253,137,83);
+  color: #F09C60;
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 22px;

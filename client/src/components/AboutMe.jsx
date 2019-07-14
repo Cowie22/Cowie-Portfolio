@@ -1,6 +1,6 @@
 import React from 'react';
 import Roxy from '../../public/photos/Roxy.png';
-// import Roxy from '../../public/photos/Roxy.webp';
+import Fade from 'react-reveal/Fade';
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -10,14 +10,35 @@ class AboutMe extends React.Component {
     }
   }
   render() {
+    const { pagePosition } = this.props;
     return (
       <div className="AboutMe-Container">
+      <Fade
+        down
+        when={pagePosition > 700}
+        duration={1800}
+        distance={'400px'}
+      >
         <div className="AboutMe-Title-Container">
           <h1 className="AboutMe-Title">ABOUT</h1>
         </div>
-        <div className="AboutMe-Photo-Container">
-          <img src={Roxy} className="AboutMe-Photo" />
-        </div>
+      </Fade>
+        <Fade
+          left
+          when={pagePosition > 700}
+          duration={1800}
+          distance={'400px'}
+        >
+          <div className="AboutMe-Photo-Container">
+            <img src={Roxy} className="AboutMe-Photo" />
+          </div>
+        </Fade>
+        <Fade
+          right
+          when={pagePosition > 700}
+          duration={1800}
+          distance={'400px'}
+        >
         <div className="AboutMe-Info-Container">
           <h3 className="Who">Who Is This Guy?</h3>
           <p className="AboutMe-Info">
@@ -30,6 +51,7 @@ class AboutMe extends React.Component {
             I grew up in Lake Tahoe, California, so other interest of mine are sports and several outdoor activities.  I also have a passion for music and music festivals.
           </p>
         </div>
+        </Fade>
       </div>
     )
   }
